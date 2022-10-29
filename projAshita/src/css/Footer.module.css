@@ -1,0 +1,50 @@
+.container{
+    background-color: rgb(19, 19, 34);
+    height: 30vh;
+}
+.boxes{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    padding: 3% 0 2% 0;
+    justify-content: space-around;
+}
+.logo{
+    width: 15%;
+    height: 8vh;
+    background-image: url(../img/logo.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    font-size: 2vh;
+    border-radius: 10px;
+}
+.box:hover{
+    background-color: rgba(240, 248, 255, 0.11);
+}
+.box:hover{
+    cursor: pointer;
+}
+.linha{
+    background-color: aliceblue;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+}
+.contato{ 
+    color: rgb(228, 228, 228);
+    margin-top: 1%;
+   text-align: center;
+   font-size: 2vh;
+}
+.contato2{ 
+   color: rgb(190, 190, 190);
+   text-align: center;
+   font-size: 2vh;
+}

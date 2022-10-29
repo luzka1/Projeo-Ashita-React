@@ -1,0 +1,29 @@
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../img/fundoNoite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    height: 50vh;
+    justify-content: flex-start;
+}
+.box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 3%;
+    background-color: rgb(231, 99, 203);
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+}
+.titulo{
+    font-size: 1.2vw;
+    width: 80%;
+}
+.texto{
+    width: 85%;
+    font-size: 1.3vw;
+    font-weight: lighter;
+}
